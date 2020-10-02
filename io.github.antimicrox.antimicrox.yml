@@ -21,5 +21,5 @@ modules:
     sources:
       - type: git
         url: https://github.com/AntiMicroX/antimicrox.git
-        tag: 3.1.1
-        commit: 298fb960b710985649900c87f6389fc389f67d1e
+        tag: 3.1.2
+        commit: 085298a9984b83ad7514a6ff0aefca988ad3532e

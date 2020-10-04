@@ -4,8 +4,6 @@ runtime-version: '5.15'
 sdk: org.kde.Sdk
 command: antimicrox
 finish-args:
-  # KDE Plasma tray icon
-  - --talk-name=org.kde.StatusNotifierWatcher
   # X11 + XShm access
   - --share=ipc
   - --socket=x11

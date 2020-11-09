@@ -22,5 +22,6 @@ modules:
     sources:
       - type: git
         url: https://github.com/AntiMicroX/antimicrox.git
-        tag: 3.1.2
-        commit: 085298a9984b83ad7514a6ff0aefca988ad3532e
+        # tag: 3.1.2
+        # commit: 085298a9984b83ad7514a6ff0aefca988ad3532e
+        branch: icons_overhaul

@@ -12,7 +12,9 @@ finish-args:
   - --socket=x11
   # Gamepads
   - --device=all
-
+  # Fixes https://github.com/AntiMicroX/antimicrox/issues/70 until
+  # https://github.com/flatpak/xdg-desktop-portal-gtk/issues/191 is fixed
+  - --filesystem=home
 
 modules:
   - name: antimicrox

@@ -21,6 +21,7 @@ modules:
     buildsystem: cmake
     config-opts:
       - -DANTIMICROX_PKG_VERSION=flatpak
+      - -DINSTALL_UINPUT_UDEV_RULES=OFF
     sources:
       - type: git
         url: https://github.com/AntiMicroX/antimicrox.git

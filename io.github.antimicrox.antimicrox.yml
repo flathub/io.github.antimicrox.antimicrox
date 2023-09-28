@@ -6,7 +6,6 @@ command: antimicrox
 finish-args:
   # KDE Plasma tray icon
   - --talk-name=org.kde.StatusNotifierWatcher
-  - --own-name=org.kde.*
   # X11 + XShm access
   - --share=ipc
   - --socket=x11

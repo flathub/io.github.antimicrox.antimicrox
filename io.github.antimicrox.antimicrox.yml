@@ -1,6 +1,6 @@
 app-id: io.github.antimicrox.antimicrox
 runtime: org.kde.Platform
-runtime-version: '5.15-22.08'
+runtime-version: 'qt5.15lts-23.08'
 sdk: org.kde.Sdk
 command: antimicrox
 finish-args:

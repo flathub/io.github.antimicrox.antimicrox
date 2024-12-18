@@ -25,4 +25,4 @@ modules:
       - type: git
         url: https://github.com/AntiMicroX/antimicrox.git
         # tag: 3.4.1
-        commit: 28d1056db331f33db70e03d7c928b3d56744a016
+        commit: b300273d65f71d072ac632141e1a095fe340ea10

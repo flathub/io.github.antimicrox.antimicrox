@@ -16,6 +16,7 @@ finish-args:
   - --filesystem=home
 
 modules:
+  - "SDL2-no-libdecor.json"
   - name: SDL2
     buildsystem: autotools
     config-opts:

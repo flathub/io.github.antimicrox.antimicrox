@@ -8,7 +8,8 @@ finish-args:
   - --talk-name=org.kde.StatusNotifierWatcher
   # X11 + XShm access
   - --share=ipc
-  - --socket=x11
+  - --socket=fallback-x11
+  - --socket=wayland
   # Gamepads
   - --device=all
   # Fixes https://github.com/AntiMicroX/antimicrox/issues/70 until

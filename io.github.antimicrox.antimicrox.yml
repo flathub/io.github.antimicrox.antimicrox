@@ -8,7 +8,6 @@ finish-args:
   - --talk-name=org.kde.StatusNotifierWatcher
   # X11 + XShm access
   - --share=ipc
-  - --socket=fallback-x11
   - --socket=wayland
   # Gamepads
   - --device=all
@@ -22,6 +21,8 @@ modules:
     config-opts:
       - -DANTIMICROX_PKG_VERSION=flatpak
       - -DINSTALL_UINPUT_UDEV_RULES=OFF
+      - -DWITH_XTEST=OFF
+      - -DWITH_X11=OFF
     sources:
       - type: git
         url: https://github.com/AntiMicroX/antimicrox.git

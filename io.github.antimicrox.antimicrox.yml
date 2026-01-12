@@ -9,6 +9,7 @@ finish-args:
   # X11 + XShm access
   - --share=ipc
   - --socket=wayland
+  - --socket=fallback-x11
   # Gamepads
   - --device=all
   # Fixes https://github.com/AntiMicroX/antimicrox/issues/70 until

@@ -1,6 +1,6 @@
 app-id: io.github.antimicrox.antimicrox
 runtime: org.kde.Platform
-runtime-version: '6.9'
+runtime-version: '6.10'
 sdk: org.kde.Sdk
 command: antimicrox
 finish-args:
@@ -22,8 +22,9 @@ modules:
     config-opts:
       - -DANTIMICROX_PKG_VERSION=flatpak
       - -DINSTALL_UINPUT_UDEV_RULES=OFF
+      - -DWITH_X11=OFF
     sources:
       - type: git
         url: https://github.com/AntiMicroX/antimicrox.git
-        # tag: 3.5.1
-        commit: 7939b51173826959736fc18773b0610460d9d504
+        # tag: 3.6.0
+        commit: 076cc569e9a078c6974d109a4890fb22f59f05c3

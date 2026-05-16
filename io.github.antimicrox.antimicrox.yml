@@ -22,6 +22,7 @@ modules:
     config-opts:
       - -DANTIMICROX_PKG_VERSION=flatpak
       - -DINSTALL_UINPUT_UDEV_RULES=OFF
+      - -DWITH_X11=OFF
     sources:
       - type: git
         url: https://github.com/AntiMicroX/antimicrox.git
